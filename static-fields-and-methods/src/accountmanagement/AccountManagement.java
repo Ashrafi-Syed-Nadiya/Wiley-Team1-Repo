@@ -15,7 +15,11 @@ public class AccountManagement {
         // Do the basic operations(deposit/withdraw)
         a1.deposit(100000);
         a2.withdraw(27899);
-        a3.withdraw(4567899999999);
+        a3.withdraw(567889);
+
+        a1.showAccountInfo();
+        a2.showAccountInfo();
+        a3.showAccountInfo();
 
 
     }
